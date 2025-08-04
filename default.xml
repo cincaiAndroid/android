@@ -35,6 +35,7 @@
     <!--linkfile src="tools" dest="build/tools" />-->
   <!--
   </project>
+  -->
   <!--
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
