@@ -81,8 +81,9 @@ Make sure ~/bin is in your $PATH.
 2. Initialize the repo
 
 cd ~/android
-repo init -u https://github.com/dmmartin/leandroid.git -b cincai-1 --git-lfs
-
+```
+repo init -u https://github.com/cincaiAndroid/android.git -b cincai.1 --git-lfs
+```
 3. Sync the source
 
 repo sync -c -j$(nproc)
