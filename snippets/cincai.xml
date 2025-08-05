@@ -27,5 +27,5 @@
            revision="main"-->
   <project path="android" name="cincaiAndroid/android" remote="cincaiAndroid" revision="cincai.1"/>
   <project path="frameworks/base" name="cincaiAndroid/android_frameworks_base" remote="cincaiAndroid" revision="cincai"/>
-  <project path="vendor/cincaiOTA" name="cincaiAndroid/android_vendor_crDroidOTA" remote="cincaiAndroid" revision="main"/>
+  <project path="vendor/cincaiOTA" name="cincaiAndroid/android_vendor_cincaiAndroidA" remote="cincaiAndroid" revision="main"/>
 </manifest>
