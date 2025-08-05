@@ -82,7 +82,9 @@ Make sure ~/bin is in your $PATH.
 
 cd ~/android
 ```
+```
 repo init -u https://github.com/cincaiAndroid/android.git -b cincai.1 --git-lfs
+```
 ```
 3. Sync the source
 
