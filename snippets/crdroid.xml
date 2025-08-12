@@ -4,39 +4,39 @@
   <remote name="crdroid-gitlab" fetch="https://gitlab.com/" sync-c="true" sync-j="4" revision="refs/heads/15.0"/>
   <!--crDroid additions />-->
   <!--project path="android" name="crdroidandroid/android" remote="crdroid"/>-->
-  <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid"/>
-  <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid"/>
-  <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid"/>
-  <project path="build/bazel" name="crdroidandroid/android_build_bazel" groups="pdk" remote="crdroid">
+    <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid"/>
+    <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid"/>
+    <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid"/>
+    <project path="build/bazel" name="crdroidandroid/android_build_bazel" groups="pdk" remote="crdroid">
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE"/>
     <linkfile src="bazel.BUILD" dest="BUILD"/>
     </project>
-  <project path="build/make" name="crdroidandroid/android_build" groups="pdk,sysui-studio" remote="crdroid"><linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
-    <linkfile src="core" dest="build/core"/>
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-    <linkfile src="target" dest="build/target"/>
-    <linkfile src="tools" dest="build/tools"/>
+    <project path="build/make" name="crdroidandroid/android_build" groups="pdk,sysui-studio" remote="crdroid"><linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+      <linkfile src="core" dest="build/core"/>
+      <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+      <linkfile src="target" dest="build/target"/>
+      <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project path="build/soong" name="crdroidandroid/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="crdroid">
-    <linkfile src="root.bp" dest="Android.bp"/>
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+    <project path="build/soong" name="crdroidandroid/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="crdroid">
+      <linkfile src="root.bp" dest="Android.bp"/>
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid"/>
-  <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid"/>
-    <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid"/>
-    <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid"/>
+     <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid"/>
+     <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid"/>
+     <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid"/>
+     <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid"/>
      <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid"/>
      <!--project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid"/>-->
-     <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid"/>
-     <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid"/>
-     <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="crdroid"/>
+      <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid"/>
+      <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid"/>
+       <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="crdroid"/>
      <project path="hardware/google/pixel" name="crdroidandroid/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="crdroid"/>
      <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid"/>
-    <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid"/>
-    <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="15.0-caf-sm8150"/>
-    <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="15.0-caf-sm8350"/>
-    <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid"/>
+     <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid"/>
+     <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="15.0-caf-sm8150"/>
+      <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="15.0-caf-sm8350"/>
+     <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid"/>
     <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid"/>
     <project path="packages/apps/ColumbusService" name="crdroidandroid/android_packages_apps_ColumbusService" remote="crdroid"/>
     <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid"/>
