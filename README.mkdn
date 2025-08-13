@@ -37,6 +37,7 @@ If you're new to ROM building, read this. If you're not — read it anyway.
 
 Ubuntu users — you’ll get your own section below. Spoiler: it’s not flattering.
 
+- [**Instruction**](https://github.com/cincaiAndroid/Some-Instructions/blob/main/HowTo.md) — 
 Install build essentials:
 
 ```bash
