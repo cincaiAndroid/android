@@ -37,49 +37,9 @@ If you're new to ROM building, read this. If you're not — read it anyway.
 
 Ubuntu users — you’ll get your own section below. Spoiler: it’s not flattering.
 
+Click on the instruction below to get the full list of packages needed. 
 - [**Instruction**](https://github.com/cincaiAndroid/Some-Instructions/blob/main/HowTo.md) — How to prepare working environment
 
-Install build essentials:
-
-```bash
-sudo dnf install @c-development @development-tools
-# OR
-sudo dnf group install "C Development Tools and Libraries" "Development Tools"
-
-Install additional packages:
-
-sudo dnf install --skip-unavailable \
-android-tools \
-ccache \
-clang \
-cmake \
-git-lfs \
-gperf \
-lzop \
-maven \
-meson \
-pngcrush \
-rpm-build \
-schedtool \
-dpkg-dev \
-libstdc++ \
-ncurses-compat-libs \
-python3-mako \
-python3-networkx \
-syslinux-devel \
-openssl-devel-engine \
-libxcrypt-compat
-
-Make your working directories:
-
-mkdir -p ~/bin ~/android
-
-Download the repo tool:
-
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-chmod a+x ~/bin/repo
-
-Make sure ~/bin is in your $PATH.
 2. Initialize the repo
 
 cd ~/android
