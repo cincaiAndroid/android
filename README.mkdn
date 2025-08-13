@@ -41,7 +41,7 @@ Click on the instruction below to get the full list of packages needed.
 - [**Instruction**](https://github.com/cincaiAndroid/Some-Instructions/blob/main/HowTo.md) — How to prepare working environment
 
 ### 2. Initialize the repo
-assuming that ~/android has been created,
+assuming that ~/android has been created, 
 ```bash
 cd ~/android
 ```
@@ -50,9 +50,10 @@ repo init -u https://github.com/cincaiAndroid/android.git -b cincai.1 --git-lfs
 ```
 ```
 3. Sync the source
-
+```
+```
 repo sync -c -j$(nproc)
-
+```
     🧠 Tip: If you have a Ryzen Threadripper — go nuts with -j32 or -j64.
     With a proper SSD and net, syncing takes under 30 mins.
     Just don’t be like that YouTuber Gary Explains, who synced AOSP on a 2-core laptop and called it a tutorial. 😵‍💫
