@@ -40,8 +40,9 @@ Ubuntu users — you’ll get your own section below. Spoiler: it’s not flatte
 Click on the instruction below to get the full list of packages needed. 
 - [**Instruction**](https://github.com/cincaiAndroid/Some-Instructions/blob/main/HowTo.md) — How to prepare working environment
 
-2. Initialize the repo
-
+### 2. Initialize the repo
+assuming that ~/android has been created,
+```bash
 cd ~/android
 ```
 ```
