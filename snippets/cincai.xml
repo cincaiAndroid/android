@@ -6,6 +6,17 @@
         sync-c="true"
         sync-j="10"
         revision="refs/heads/cincai.1"/>
+  
+  <remote name="crdroid"
+          fetch="https://github.com/"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/15.0"/>
+
+  <remote name="crdroid-gitlab"
+          fetch="https://gitlab.com/"
+          sync-c="true" sync-j="4"
+          revision="refs/heads/15.0"/>
   <project path="android"
            name="cincaiAndroid/android"
            remote="cincaiAndroid"
@@ -25,18 +36,6 @@
            name="cincaiAndroid/android_vendor_crdroid"
            remote="cincaiAndroid"
            revision="cincai.1"/>
-  <manifest>
-  <remote name="crdroid"
-          fetch="https://github.com/"
-          sync-c="true"
-          sync-j="4"
-          revision="refs/heads/15.0"/>
-
-  <remote name="crdroid-gitlab"
-          fetch="https://gitlab.com/"
-          sync-c="true" sync-j="4"
-          revision="refs/heads/15.0"/>
-
   <!--crDroid additions />-->
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid"/>
   <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid"/>
