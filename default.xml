@@ -14,6 +14,6 @@
            sync-j="4" />
 
   <!-- Only include your custom manifest -->
-  <include name="cincai.xml" />
+  <include name="snippets/cincai.xml" />
 
 </manifest>
