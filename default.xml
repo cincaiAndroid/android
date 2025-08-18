@@ -4,13 +4,13 @@
   <!-- Default remote: your fork -->
   <remote name="cincaiAndroid"
           fetch="https://github.com"
-          revision="refs/heads/cincai.1"
+          revision="refs/heads/cc-1"
           sync-c="true"
           sync-j="4" />
 
   <!-- Default sync settings -->
   <default remote="cincaiAndroid"
-           revision="refs/heads/cincai.1"
+           revision="refs/heads/cc-1"
            sync-j="4" />
 
   <!-- Only include your custom manifest -->
