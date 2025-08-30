@@ -10,9 +10,11 @@
   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
   <linkfile src="target" dest="build/target" />
   <linkfile src="tools" dest="build/tools" />
+  </project>  
 <project path="build/soong" name="cincaiAndroid/android_build_soong" groups="pdk,tradefed,sysui-studio" />
   <linkfile src="root.bp" dest="Android.bp" />
   <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+   </project> 
 <project path="frameworks/av" name="cincaiAndroid/android_frameworks_av" revision="cc-1"/>
 <project path="frameworks/base" name="cincaiAndroid/android_frameworks_base" remote="cincaiAndroid" revision="cc-1"/>
 <project path="vendor/cincaiAndroidOTA" name="cincaiAndroid/android_vendor_cincaiAndroidOTA" remote="cincaiAndroid" revision="cc-1"/>
