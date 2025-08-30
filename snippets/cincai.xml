@@ -22,7 +22,7 @@
 
   <project path="frameworks/av" name="cincaiAndroid/android_frameworks_av" remote="cincaiAndroid" revision="cc-1"/>
   <project path="frameworks/base" name="cincaiAndroid/android_frameworks_base" remote="cincaiAndroid" revision="cc-1"/>
-  <project path="vendor/cincaiAndroidOTA" name="cincaiAndroid/android_vendor_cincaiAndroidOTA" remote="cincaiAndroid" revision="cc-1"/>
+  <!--<project path="vendor/cincaiAndroidOTA" name="cincaiAndroid/android_vendor_cincaiAndroidOTA" remote="cincaiAndroid" revision="cc-1"/>-->
   <project path="vendor/lineage" name="cincaiAndroid/android_vendor_lineage" remote="cincaiAndroid" revision="cc-1"/>
 
 </manifest>
