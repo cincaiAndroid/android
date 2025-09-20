@@ -57,6 +57,8 @@ repo sync -c -j$(nproc)
     With a proper SSD and net, syncing takes under 30 mins.
     Just don’t be like that YouTuber Gary Explains, who synced AOSP on a 2-core laptop and called it a tutorial. 😵‍💫
 
+
+
 ### 4. Build Time!
 ```
 . build/envsetup.sh
@@ -65,7 +67,17 @@ make bacon
 ```
 Or:
 
-brunch <your_device_codename>
+brunch <your_device_codename>   
+
+Up to this stage, we assume that your device's source tree placed on the build env for example, my test device Oneplus 7 pro, the device codename is guacamole, the common files are in sm8150-common, hardware should be oplus   
+- device/oneplus/guacamole   
+- device/oneplus/sm8150-common   
+- hardware/oplus   
+- kernel/oneplus/sm8150   
+- vendor/oneplus/guacamole   
+- vendor/oneplus/sm8150-common   
+
+
 
 🧠 Need Help with Non-AOSP Devices?
 
