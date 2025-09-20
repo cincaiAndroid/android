@@ -64,9 +64,9 @@ lunch <your_device_codename>
 make bacon
 ```
 Or:
-
+```
 brunch <your_device_codename>   
-
+```
 Up to this stage, we assume that your device's sources trees have been placed on the build env for example, my test device Oneplus 7 pro, the device codename is guacamole, the common files are in sm8150-common, hardware should be oplus:   
 
     device/oneplus/guacamole
