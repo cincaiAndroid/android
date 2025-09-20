@@ -69,14 +69,15 @@ Or:
 
 brunch <your_device_codename>   
 
-Up to this stage, we assume that your device's sources trees have been placed on the build env for example, my test device Oneplus 7 pro, the device codename is guacamole, the common files are in sm8150-common, hardware should be oplus   
-- device/oneplus/guacamole   
-- device/oneplus/sm8150-common   
-- hardware/oplus   
-- kernel/oneplus/sm8150   
-- vendor/oneplus/guacamole   
-- vendor/oneplus/sm8150-common   
+Up to this stage, we assume that your device's sources trees have been placed on the build env for example, my test device Oneplus 7 pro, the device codename is guacamole, the common files are in sm8150-common, hardware should be oplus:   
+It knows:
 
+    device/oneplus/guacamole
+    device/oneplus/sm8150-common
+    kernel/oneplus/sm8150   
+    hardware/oplus   
+    vendor/oneplus/guacamole 
+    vendor/oneplus/sm8150-common  
 
 
 🧠 Need Help with Non-AOSP Devices?
