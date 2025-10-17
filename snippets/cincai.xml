@@ -4,6 +4,7 @@
 
   <remote name="cincaiAndroid" fetch="https://github.com" sync-c="true" sync-j="10" revision="refs/heads/cc-22.2"/>
   <project path="android" name="cincaiAndroid/android" renote="cincaiAndroid" revision="cc-22.2" />
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" revision="cc-22.2" />
   <project path="vendor/lineage" name="cincaiAndroid/android_vendor_lineage" remote="cincaiAndroid" revision="cc-22.2"/>
   <project path="lineage-sdk" name="cincaiAndroid/android_lineage-sdk" remote="cincaiAndroid" revision="cc-22.2"/>
   <project path="packages/apps/Settings" name="cincaiAndroid/android_packages_apps_Settings" revision="cc-22.2"/>
