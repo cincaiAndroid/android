@@ -18,13 +18,13 @@ Before we go all hardcore-cincai on your CPU, credit where credit is due:
 
 ## 🔥 Release Channels
 
-| Label               | Stage             | Description                                                                 |
-| ------------------- | ----------------- | --------------------------------------------------------------------------- |
-| **cincai**          | Stable            | 💎 Official release. Tested, polished, and safe for your in-laws' phones.   |
-| **almost cincai**   | Release Candidate | 🧪 Almost there. Good enough for daily use, but might still randomly vibe.  |
-| **too cincai**      | Beta              | 🐛 Expect some weirdness. We're experimenting... with feeling.              |
-| **hardcore cincai** | Development       | 💥 Enter at your own risk. This is where dragons and dirty logs live.       |
-| **peak-cincai**     | Bleeding Edge     | 🚀 When this shows up, a major version upgrade is coming. Brace yourself.   |
+| Label                | Stage             | Description                                                                 |
+| -------------------- | ----------------- | --------------------------------------------------------------------------- |
+| **cincai**           | Stable            | 💎 Official release. Tested, polished, and safe for your in-laws' phones.   |
+| **almost cincai**    | Release Candidate | 🧪 Almost there. Good enough for daily use, but might still randomly vibe.  |
+| **not cincai**       | Beta              | 🐛 Expect some weirdness. We're experimenting... with feeling.              |
+| **cincai formation** | Development       | 💥 Enter at your own risk. This is where dragons and dirty logs live.       |
+| **peak-cincai**      | Bleeding Edge     | 🚀 When this shows up, a major version upgrade is coming. Brace yourself.   |
 
 ---
 
