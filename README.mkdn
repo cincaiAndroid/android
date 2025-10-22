@@ -44,7 +44,7 @@ assuming that ~/android has been created,
 cd ~/android
 ```
 ```
-https://github.com/cincaiAndroid/android.git```
+repo init -u https://github.com/cincaiAndroid/android.git -b cc-23.0
 ### 3. Sync the source
 
 ```
