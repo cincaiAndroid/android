@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Override crDroid or Lineage repos with your forks -->
+  <!-- Override Lineage repos with your forks -->
 
   <remote name="cincaiAndroid" fetch="https://github.com" sync-c="true" sync-j="10" revision="refs/heads/cc-23.0"/>
   <project path="android" name="cincaiAndroid/android" remote="cincaiAndroid" revision="cc-23.0" />
