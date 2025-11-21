@@ -9,7 +9,7 @@ A *cincai* Android fork based on LineageOS — built with love, duct tape, sarca
 ## 🙏 Acknowledgments
 
 Before we go all hardcore-cincai on your CPU, credit where credit is due:
-- ❤️ [**AOSP**](https://source.android.com) — for allowing poor smartphone who cannot afford.. to get s new device to build android upgrade using their code
+- ❤️ [**AOSP**](https://source.android.com) — for allowing poor smartphone owner who cannot afford.. to get s new device to build android upgrade using their code
 - ❤️ [**LineageOS**](https://github.com/LineageOS) — for keeping AOSP alive and forkable.
 - 🐧 [**Fedora Project**](https://getfedora.org) — the only OS brave enough to handle this mess.
 - 🤖 [**OpenAI / ChatGPT**](https://openai.com/chatgpt) — for helping us fix stuff we broke without reading Stack Overflow threads from 2013.
