@@ -68,8 +68,8 @@ Or:
 ```
 brunch <your_device_codename>   
 ```
-Up to this stage, we assume that your device's sources trees have been placed on the build env for example, my test device Oneplus 7 pro, the device codename is guacamole, the common files are in sm8150-common, hardware should be oplus:   
-
+The following is an example of how a device tree is structured...    
+OnePlus 7 Pro
     device/oneplus/guacamole
     device/oneplus/sm8150-common
     kernel/oneplus/sm8150   
