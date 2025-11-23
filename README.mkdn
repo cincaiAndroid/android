@@ -69,14 +69,15 @@ Or:
 brunch <your_device_codename>   
 ```
 The following is an example of how a device tree is structured...    
-OnePlus 7 Pro
+OnePlus 7 Pro   
+
     device/oneplus/guacamole
     device/oneplus/sm8150-common
     kernel/oneplus/sm8150   
     hardware/oplus   
     vendor/oneplus/guacamole 
     vendor/oneplus/sm8150-common  
-
+```
 
 🧠 Need Help with Non-AOSP Devices?
 
