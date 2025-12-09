@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Override Lineage repos with your forks -->
-
   <remote name="cincaiAndroid" fetch="https://github.com" sync-c="true" sync-j="10" revision="refs/heads/cc-23.0"/>
   <project path="android" name="cincaiAndroid/android" remote="cincaiAndroid" revision="cc-23.0" />
   <project path="bootable/recovery" name="cincaiAndroid/android_bootable_recovery" remote="cincaiAndroid" revision="cc-23.0" />
@@ -11,5 +10,4 @@
   <project path="packages/apps/Settings" name="cincaiAndroid/android_packages_apps_Settings" remote="cincaiAndroid" revision="cc-23.0"/>
   <project path="packages/apps/SetupWizard" name="cincaiAndroid/android_packages_apps_SetupWizard" remote="cincaiAndroid" revision="cc-23.0"/>
   <project path="packages/apps/Updater" name="cincaiAndroid/android_packages_apps_Updater" remote="cincaiAndroid" revision="cc-23.0"/>
-
 </manifest>
