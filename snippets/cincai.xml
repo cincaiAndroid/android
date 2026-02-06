@@ -11,7 +11,7 @@
   <project path="packages/apps/Settings" name="cincaiAndroid/android_packages_apps_Settings" remote="cincaiAndroid" revision="cc-23.0"/>
   <project path="packages/apps/SetupWizard" name="cincaiAndroid/android_packages_apps_SetupWizard" remote="cincaiAndroid" revision="cc-23.0"/>
   <project path="packages/apps/Updater" name="cincaiAndroid/android_packages_apps_Updater" remote="cincaiAndroid" revision="cc-23.0"/>
-  -->
+
   <remote name="cincaiAndroid" fetch="https://github.com" sync-c="true" sync-j="10" revision="refs/heads/cc-23.0"/>
   <project path="android" name="cincaiAndroid/android" remote="cincaiAndroid" revision="cc-23.0" />
   <project path="bootable/recovery" name="cincaiAndroid/android_bootable_recovery-f" remote="cincaiAndroid" revision="cc-23.0" />
@@ -21,4 +21,14 @@
   <project path="packages/apps/Settings" name="cincaiAndroid/android_packages_apps_Settings-f" remote="cincaiAndroid" revision="cc-23.0"/>
   <project path="packages/apps/SetupWizard" name="cincaiAndroid/android_packages_apps_SetupWizard-f" remote="cincaiAndroid" revision="cc-23.0"/>
   <project path="packages/apps/Updater" name="cincaiAndroid/android_packages_apps_Updater-f" remote="cincaiAndroid" revision="cc-23.0"/>
+  -->
+  <remote name="cincaiAndroid" fetch="https://github.com" sync-c="true" sync-j="10" revision="refs/heads/cc-23.0"/>
+  <project path="android" name="cincaiAndroid/android" remote="cincaiAndroid" revision="cc-23.0" />
+  <project path="bootable/recovery" name="cincaiAndroid/android_bootable_recovery-f" remote="cincaiAndroid" revision="cincai-recovery" />
+  <project path="vendor/lineage" name="cincaiAndroid/android_vendor_lineage-f" remote="cincaiAndroid" revision="cincai-vendor-lineage"/>
+  <project path="lineage-sdk" name="cincaiAndroid/android_lineage-sdk-f" remote="cincaiAndroid" revision="cincai-lineage-sdk"/>
+  <project path="packages/apps/LineageParts" name="cincaiAndroid/android_packages_apps_LineageParts-f" revision="cincai-lineageparts"/>
+  <project path="packages/apps/Settings" name="cincaiAndroid/android_packages_apps_Settings-f" remote="cincaiAndroid" revision="cincai-settings"/>
+  <project path="packages/apps/SetupWizard" name="cincaiAndroid/android_packages_apps_SetupWizard-f" remote="cincaiAndroid" revision="cincai-setupwizard"/>
+  <project path="packages/apps/Updater" name="cincaiAndroid/android_packages_apps_Updater-f" remote="cincaiAndroid" revision="cincai-updater"/>
 </manifest>
