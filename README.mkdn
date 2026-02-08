@@ -130,7 +130,7 @@ cincaiAndroid is not affiliated with LineageOS, crDroid, Google, or your warrant
 Everything here is provided cincai-cincai and without guarantees.
 Flash responsibly.
 
-    “Building AOSP is easy. Building for your obscure 2018 Mediatek phone is CincaiAndroid.”
+    “Building AOSP is easy. Building for your obscure 2018 Mediatek phone is Cincai ... cincaiAndroid might lead you to a discovery”
 
 
 ---
