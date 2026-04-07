@@ -50,7 +50,7 @@ repo init -u https://github.com/cincaiAndroid/android.git -b cc-23.2 --git-lfs
 
 ```
 repo sync -c -j$(nproc)
-repo sync -c -j16 --force-sync
+repo sync -c -j28 --force-sync
 ```
     🧠 Tip: If you have a Ryzen Threadripper — go nuts with -j32 or -j64.
     With a proper SSD and net, syncing takes under 20 mins.
