@@ -4,7 +4,7 @@
   <remote name="cincaiAndroid" fetch="https://github.com" sync-c="true" sync-j="10" revision="refs/heads/cc-23.2"/>
   <project path="android" name="cincaiAndroid/android" remote="cincaiAndroid" revision="cc-23.2" />
   <project path="bootable/recovery" name="cincaiAndroid/android_bootable_recovery-f" remote="cincaiAndroid" revision="cc-23.2" />
-  <project path="hardware/pixelworks/interfaces" name="cincaiAndroid/android_hardware_pixelworks_interfaces_f" remote="cincaiAndroid" revision="cc-23.2" />
+  <!--project path="hardware/pixelworks/interfaces" name="cincaiAndroid/android_hardware_pixelworks_interfaces_f" remote="cincaiAndroid" revision="cc-23.2" />-->
   <project path="lineage-sdk" name="cincaiAndroid/android_lineage-sdk-f" remote="cincaiAndroid" revision="cc-23.2"/>
   <project path="packages/apps/LineageParts" name="cincaiAndroid/android_packages_apps_LineageParts-f" revision="cc-23.2"/>
   <project path="packages/apps/Settings" name="cincaiAndroid/android_packages_apps_Settings-f" remote="cincaiAndroid" revision="cc-23.2"/>
